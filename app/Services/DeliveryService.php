@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Mail;
 
 class DeliveryService
 {
-
     public function __construct(
         private string $country,
         private string $type
